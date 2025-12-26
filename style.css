@@ -115,3 +115,14 @@ body {
 .cert a:hover {
   text-decoration: underline;
 }
+
+/* Contact Links */
+section a {
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
