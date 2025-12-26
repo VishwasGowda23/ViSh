@@ -79,3 +79,39 @@ body {
     padding: 40px 6%;
   }
 }
+
+/* Certifications Grid */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.cert {
+  transition: transform 0.3s ease;
+}
+
+.cert:hover {
+  transform: translateY(-6px);
+}
+
+.cert h3 {
+  color: #e5e7eb;
+  margin-bottom: 6px;
+}
+
+.cert .cred {
+  font-size: 0.9rem;
+  opacity: 0.85;
+  margin: 8px 0;
+}
+
+.cert a {
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cert a:hover {
+  text-decoration: underline;
+}
