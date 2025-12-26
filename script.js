@@ -1,1 +1,3 @@
-console.log("ViSh portfolio loaded successfully 🚀");
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("🚀 ViSh Portfolio Loaded");
+});
