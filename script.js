@@ -1,3 +1,1 @@
-document.addEventListener("DOMContentLoaded", () => {
-  console.log("🚀 ViSh Portfolio Loaded");
-});
+console.log("📊 Data Analyst Dashboard Loaded");
