@@ -9,155 +9,122 @@
 </head>
 <body>
 
-  <!-- HEADER -->
-  <header class="header">
+  <!-- NAVBAR -->
+  <nav class="navbar">
     <h1>ViSh</h1>
-    <p>Data Analyst | SQL • Python • Power BI</p>
-  </header>
+    <ul class="nav-links">
+      <li><a href="#kpis">KPIs</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Case Studies</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="theme-toggle">🌙</button>
+  </nav>
 
-  <!-- KPI SECTION -->
-  <section class="kpis">
-    <div class="kpi-card">
-      <h2>5+</h2>
-      <p>Projects</p>
-    </div>
-    <div class="kpi-card">
-      <h2>10+</h2>
-      <p>Datasets</p>
-    </div>
-    <div class="kpi-card">
-      <h2>3</h2>
-      <p>Dashboards</p>
-    </div>
-    <div class="kpi-card">
-      <h2>1+</h2>
-      <p>Years Learning</p>
-    </div>
-  </section>
+  <main>
 
-  <!-- EDUCATION -->
-<section class="section">
-  <h2>Education</h2>
+    <!-- HEADER -->
+    <header class="header">
+      <h1>ViSh</h1>
+      <p>Data Analyst | SQL • Python • Power BI</p>
+    </header>
 
-  <div class="card">
-    <h3>
-      MSc Data Science
-      <span class="highlight">(Distinction)</span>
-    </h3>
+    <!-- KPI SECTION -->
+    <section class="kpis" aria-label="Key Performance Indicators" id="kpis">
+      <div class="kpi-card">
+        <h2 data-target="5">0+</h2>
+        <p>Projects</p>
+      </div>
+      <div class="kpi-card">
+        <h2 data-target="10">0+</h2>
+        <p>Datasets</p>
+      </div>
+      <div class="kpi-card">
+        <h2 data-target="3">0</h2>
+        <p>Dashboards</p>
+      </div>
+      <div class="kpi-card">
+        <h2 data-target="1">0+</h2>
+        <p>Years Learning</p>
+      </div>
+    </section>
 
-    <p>
-      <b>Northumbria University</b>, Newcastle<br />
-      <span class="muted">September 2024 – October 2025</span>
-    </p>
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <h2>Education</h2>
+      <div class="card">
+        <h3>MSc Data Science <span class="highlight">(Distinction)</span></h3>
+        <p><b>Northumbria University</b>, Newcastle<br />
+        <span class="muted">September 2024 – October 2025</span></p>
+        <p><b>Core Modules:</b> Big Data & Cloud Computing (A), Machine Learning (B), Advanced Database (A), Statistical Programming (A), Principles of Data Science (A), Academic Language Skills (A)</p>
+        <p><b>Activities & Societies:</b> NU Karate Society</p>
+      </div>
+    </section>
 
-    <p>
-      <b>Core Modules:</b><br />
-      Big Data & Cloud Computing (A), Machine Learning (B), Advanced Database (A),
-      Statistical Programming (A), Principles of Data Science (A),
-      Academic Language Skills for Computer & Information Sciences (A)
-    </p>
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <h2>Case Studies</h2>
+      <div class="card">
+        <h3>Sales Performance Analysis</h3>
+        <p>Analyzed sales data using SQL and Power BI to identify trends and KPIs.</p>
+        <span>Tools: SQL, Power BI</span>
+      </div>
+      <div class="card">
+        <h3>Customer Segmentation</h3>
+        <p>Used Python and Pandas to segment customers and improve targeting.</p>
+        <span>Tools: Python, Pandas</span>
+      </div>
+    </section>
 
-    <p>
-      <b>Activities & Societies:</b> NU Karate Society
-    </p>
-  </div>
-</section>
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>SQL</span>
+        <span>Python</span>
+        <span>Excel</span>
+        <span>Power BI</span>
+        <span>Tableau</span>
+        <span>Pandas</span>
+      </div>
+    </section>
 
-  <!-- PROJECTS -->
-  <section class="section">
-    <h2>Case Studies</h2>
+    <!-- CERTIFICATIONS -->
+    <section class="section" id="certifications">
+      <h2>Certifications</h2>
+      <div class="cert-grid">
+        <div class="card cert">
+          <h3>Microsoft Power BI Data Analyst</h3>
+          <p>Issued by Coursera</p>
+          <p class="cred">Credential ID: <b>OF5KJL5238W5</b></p>
+          <a href="https://www.coursera.org/account/accomplishments/professional-cert/certificate/OF5KJL5238W5" target="_blank">View Credential ↗</a>
+        </div>
+        <div class="card cert">
+          <h3>Google Stakeholder Management Specialization</h3>
+          <p>Issued by Coursera</p>
+          <p class="cred">Credential ID: <b>O99X6C0K8WUE</b></p>
+          <a href="https://www.coursera.org/account/accomplishments/specialization/O99X6C0K8WUE" target="_blank">View Credential ↗</a>
+        </div>
+        <div class="card cert">
+          <h3>General Data Protection Regulation (GDPR)</h3>
+          <p>Issued by Coursera</p>
+          <p class="cred">Credential ID: <b>FYWS137HGMDG</b></p>
+          <a href="https://www.coursera.org/account/accomplishments/verify/FYWS137HGMDG" target="_blank">View Credential ↗</a>
+        </div>
+      </div>
+    </section>
 
-    <div class="card">
-      <h3>Sales Performance Analysis</h3>
-      <p>Analyzed sales data using SQL and Power BI to identify trends and KPIs.</p>
-      <span>Tools: SQL, Power BI</span>
-    </div>
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+      <p>📧 Email: <a href="mailto:vishwasgowdarajendra@gmail.com">vishwasgowdarajendra@gmail.com</a></p>
+      <p>💻 GitHub: <a href="https://github.com/VishwasGowda23" target="_blank">github.com/VishwasGowda23</a></p>
+      <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/vishwasgowdar" target="_blank">linkedin.com/in/vishwasgowdar</a></p>
+    </section>
 
-    <div class="card">
-      <h3>Customer Segmentation</h3>
-      <p>Used Python and Pandas to segment customers and improve targeting.</p>
-      <span>Tools: Python, Pandas</span>
-    </div>
-  </section>
+  </main>
 
-  <!-- SKILLS -->
-  <section class="section">
-    <h2>Skills</h2>
-    <div class="skills">
-      <span>SQL</span>
-      <span>Python</span>
-      <span>Excel</span>
-      <span>Power BI</span>
-      <span>Tableau</span>
-      <span>Pandas</span>
-    </div>
-  </section>
-
-  <!-- CERTIFICATIONS -->
-<section class="section">
-  <h2>Certifications</h2>
-
-  <div class="cert-grid">
-
-    <div class="card cert">
-      <h3>Microsoft Power BI Data Analyst</h3>
-      <p>Issued by Coursera</p>
-      <p class="cred">
-        Credential ID: <b>OF5KJL5238W5</b>
-      </p>
-      <a href="https://www.coursera.org/account/accomplishments/professional-cert/certificate/OF5KJL5238W5" target="_blank">
-        View Credential ↗
-      </a>
-    </div>
-
-    <div class="card cert">
-      <h3>Google Stakeholder Management Specialization</h3>
-      <p>Issued by Coursera</p>
-      <p class="cred">
-        Credential ID: <b>O99X6C0K8WUE</b>
-      </p>
-      <a href="https://www.coursera.org/account/accomplishments/specialization/O99X6C0K8WUE" target="_blank">
-        View Credential ↗
-      </a>
-    </div>
-
-    <div class="card cert">
-      <h3>General Data Protection Regulation (GDPR)</h3>
-      <p>Issued by Coursera</p>
-      <p class="cred">
-        Credential ID: <b>FYWS137HGMDG</b>
-      </p>
-      <a href="https://www.coursera.org/account/accomplishments/verify/FYWS137HGMDG" target="_blank">
-        View Credential ↗
-      </a>
-    </div>
-
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section class="section">
-  <h2>Contact</h2>
-
-  <p>
-    📧 Email:
-    <a href="mailto:vishwasgowdarajendra@gmail.com">
-      vishwasgowdarajendra@gmail.com
-    </a>
-  </p>
-
-  <p>
-    💻 GitHub:
-    <a href="https://github.com/VishwasGowda23" target="_blank">
-      github.com/VishwasGowda23
-    </a>
-  </p>
-
-  <p>
-    🔗 LinkedIn:
-    <a href="https://www.linkedin.com/in/vishwasgowdar" target="_blank">
-      linkedin.com/in/vishwasgowdar
-    </a>
-  </p>
-</section>
-
+</body>
+</html>
