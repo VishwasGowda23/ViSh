@@ -118,20 +118,54 @@ body {
   opacity: 0.8;
 }
 
-/* Skills */
+/* Skills Section */
 .skills span {
+  display: inline-block;
+  background: #020617;
+  color: #38bdf8;
+  padding: 10px 18px;
+  border-radius: 20px;
+  margin: 6px;
+  font-weight: bold;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.skills span:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+/* Tech Stack Section */
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.tech-item {
   display: inline-block;
   background: linear-gradient(135deg, #38bdf8, #0ea5e9);
   color: #0b1220;
   font-weight: bold;
   padding: 10px 18px;
   border-radius: 20px;
-  margin: 6px;
-  transition: transform 0.2s;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: default;
 }
 
-.skills span:hover {
+.tech-item:hover {
   transform: scale(1.1);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .skills span,
+  .tech-item {
+    padding: 8px 14px;
+    font-size: 0.9rem;
+  }
 }
 
 /* Certifications Grid */
