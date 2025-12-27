@@ -152,15 +152,32 @@ body {
 }
 
 /* Contact Links */
-section a {
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.contact-item a {
   color: #38bdf8;
   text-decoration: none;
   font-weight: 500;
 }
 
-section a:hover {
+.contact-item a:hover {
   text-decoration: underline;
 }
+
+.contact-icon {
+  width: 24px;
+  height: 24px;
+  stroke: currentColor;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
 
 /* Education styling */
 .highlight {
